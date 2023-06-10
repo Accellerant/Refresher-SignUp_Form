@@ -40,8 +40,6 @@ below.
 
 
 >>>>>> TO DO <<<<<<
-+ Acquire Assets & Credits
-+ Add Main Messages and Logo
 + Add Form inputs
 + Add Images
 + Add Button and Link
