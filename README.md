@@ -40,7 +40,6 @@ below.
 
 
 >>>>>> TO DO <<<<<<
-+ Add Form inputs
 + Add Images
 + Add Button and Link
 + Create JS file
