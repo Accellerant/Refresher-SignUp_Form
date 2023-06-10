@@ -7,6 +7,7 @@
     <title>Odin Sign Up Form</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <div>
@@ -27,43 +28,53 @@
     <div>
         <p>Sign Up Today!</p>
 
-        <form action="">
+        <form action="" id="userForm">
             <div class="formInputs">
                 <div class="individualInputs">
                     <label for="firstName">FIRST NAME</label>
-                    <input type="text" id="firstName" name="firstName" placeholder="John"></div>
+                    <input type="text" id="firstName" name="firstName" 
+                            placeholder="John" 
+                            minlength="1" maxlength="20" required>
+                </div>
                 <div class="individualInputs">  
                     <label for="lastName">LAST NAME</label>
-                    <input type="text" id="lastName" name="lastName" placeholder="Doe">
+                    <input type="text" id="lastName" name="lastName" 
+                            placeholder="Doe" 
+                            minlength="1" maxlength="20" required>
                 </div>
             </div>
 
             <div class="formInputs">
                 <div class="individualInputs">
                     <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email" placeholder="JohnDoe@gmail.com">
+                    <input type="email" id="email" name="email" 
+                            placeholder="JohnDoe@gmail.com" 
+                            minlength="5" maxlength="256" required>
                 </div>
                 <div class="individualInputs">
                     <label for="phoneNumber">PHONE NUMBER</label>
-                    <input type="phone" id="phoneNumber" name="phoneNumber">
+                    <input type="phone" id="phoneNumber" name="phoneNumber" 
+                            maxlength="15">
                 </div>
             </div>
 
             <div class="formInputs">
                 <div class="individualInputs">
                     <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password" name="password" 
+                            minlength="6" maxlength="50" required>
                 </div>
                 <div class="individualInputs">
                     <label for="passwordConfirm">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirmPassword" name="comfirmPassword">
+                    <input type="password" id="confirmPassword" name="comfirmPassword" 
+                            minlength="6" maxlength="50" required>
                 </div>
             </div>
         </form>
     </div>
 
     <div>
-        <button>Create Account</button>
+        <button form="userForm">Create Account</button>
         <p>Already have an account? <a href="https://www.youtube.com/watch?v=9Aio5MadFUY" target="_blank">Log In!</a></p>
     </div>
 
