@@ -41,7 +41,6 @@ below.
 
 >>>>>> TO DO <<<<<<
 + Add Images
-+ Add Button and Link
 + Create JS file
 + Style The Body of the page
 + Style Main Messages and Logo
