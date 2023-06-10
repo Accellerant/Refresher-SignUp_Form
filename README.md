@@ -37,3 +37,16 @@ below.
 * One button to submit the data
 * A link to "log-in" which will instead direct to a youtube video
 * Decently formatted for Mobile devices and other screen sizes
+
+
+>>>>>> TO DO <<<<<<
++ Acquire Assets & Credits
++ Add Main Messages and Logo
++ Add Form inputs
++ Add Images
++ Add Button and Link
++ Create JS file
++ Style The Body of the page
++ Style Main Messages and Logo
++ Style Form
++ Style Button/Link
