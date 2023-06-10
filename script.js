@@ -1,16 +1,27 @@
-const mainForm = document.querySelector("#userForm");
 const password = document.querySelector("#password");
 const confirmPassword = document.querySelector("#confirmPassword");
-const submitButton = document.querySelector(".submit");
 
-submitButton.addEventListener('click', () => {
-    mainForm.submit();
+password.addEventListener('keyup',() => {
+    comparePasswords();
 })
 
-password.addEventListener('blur',() => {
-    console.log(password.value);
+confirmPassword.addEventListener('keyup', () => {
+    comparePasswords();
 })
 
-confirmPassword.addEventListener('blur', () => {
-    console.log(confirmPassword.value);
-})
+
+function comparePasswords() {
+    const message = "Passwords Do Not Match";
+
+    if(password.value !== "" && confirmPassword.value !== "") {
+
+        if(password.value != confirmPassword.value) {
+            confirmPassword.setCustomValidity(message);
+            password.setCustomValidity(message);
+        } else {
+            password.setCustomValidity("");
+            confirmPassword.setCustomValidity("");
+        }
+            
+    }
+}
