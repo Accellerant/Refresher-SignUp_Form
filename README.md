@@ -50,3 +50,12 @@ below.
 + Style Main Messages and Logo
 + Style Form
 + Style Button/Link
+
+§§§§§§ Credits §§§§§§
+
+Background Image
+Photo by <a href="https://unsplash.com/@vilkha_olga?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Olga Vilkha</a> on <a href="https://unsplash.com/photos/cnurSH6ckr0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+Logo
+Logo by <a href="https://www.pngwing.com/en/free-png-yxixx">PNGWing</a> on <a href="https://www.pngwing.com">PNGWing</a>
+  
