@@ -33,7 +33,6 @@ body {
     padding: 2.5em;
     position: relative;
     top: 18vh;
-    
 }
 
 .logo h1 {
@@ -41,6 +40,31 @@ body {
     font-size: 4.5em;
 }
 
-.data {
+.dataContainer {
     width: 60vw;
+    background-color: #262626;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dataContainer > * {
+    margin: 2.5vh 15vw 2.5vh 2vw;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    font-size: 1.5em;
+}
+
+.data {
+    background-color: #151515;
+    padding-left: 2vw;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5vh 15vw 5vh 2vw;
 }

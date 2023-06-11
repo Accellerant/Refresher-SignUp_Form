@@ -40,7 +40,6 @@ below.
 
 
 >>>>>> TO DO <<<<<<
-+ Style Main Messages and Logo
 + Style Form
 + Style Button/Link
 
