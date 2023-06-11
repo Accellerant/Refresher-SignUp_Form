@@ -1,83 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Sign Up Form</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Odin Sign Up Form</title>
 
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
-</head>
-<body>
-    <div>
-        <h1>LCRC</h1>
-    </div>
-    
-    <div>
-        <p>Most folks don't appreciate the refined flavors which genuine black licorice brings.
-            But we here at LCRC know exactly what it takes to provide genuine, pure, quality, black licorice.
-            Sign up today to be notified when our store opens up.
-        </p>
-    
-        <p>
-            Why settle for less when you can have the best?
-        </p>
-    </div>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
 
-    <div>
-        <p>Sign Up Today!</p>
+    <body>
+        <div class="logo">
+            <h1>LCRC</h1>
+        </div>
 
-        <form action="" id="userForm">
-            <div class="formInputs">
-                <div class="individualInputs">
-                    <label for="firstName">FIRST NAME</label>
-                    <input type="text" id="firstName" name="firstName" 
-                            placeholder="John" 
-                            minlength="1" maxlength="20" required>
-                </div>
-                <div class="individualInputs">  
-                    <label for="lastName">LAST NAME</label>
-                    <input type="text" id="lastName" name="lastName" 
-                            placeholder="Doe" 
-                            minlength="1" maxlength="20" required>
-                </div>
+
+        <div class="data">
+            <div class="information">
+                <p>Most folks don't <span>appreciate</span> the refined flavors which genuine black licorice brings.
+                    But we here at LCRC know exactly what it takes to provide <span>genuine</span>, <span>pure</span>, <span>quality</span>, black licorice.
+                    Sign up today to be notified when our store opens up.
+                </p>
+            
+                <p>
+                    Why settle for <span>less</span> when you can have the best?
+                </p>
             </div>
 
-            <div class="formInputs">
-                <div class="individualInputs">
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email" 
-                            placeholder="JohnDoe@gmail.com" 
-                            minlength="5" maxlength="256" required>
-                </div>
-                <div class="individualInputs">
-                    <label for="phoneNumber">PHONE NUMBER</label>
-                    <input type="phone" id="phoneNumber" name="phoneNumber" 
-                            maxlength="15">
-                </div>
+            <div class="data">
+                <p>Sign Up Today!</p>
+
+                <form action="" id="userForm">
+                    <div class="formInputs">
+                        <div class="individualInputs">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" name="firstName" 
+                                    placeholder="John" 
+                                    minlength="1" maxlength="20" required>
+                        </div>
+                        <div class="individualInputs">  
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName" name="lastName" 
+                                    placeholder="Doe" 
+                                    minlength="1" maxlength="20" required>
+                        </div>
+                    </div>
+
+                    <div class="formInputs">
+                        <div class="individualInputs">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" 
+                                    placeholder="JohnDoe@gmail.com" 
+                                    minlength="5" maxlength="256" required>
+                        </div>
+                        <div class="individualInputs">
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="phone" id="phoneNumber" name="phoneNumber" 
+                                    maxlength="15">
+                        </div>
+                    </div>
+
+                    <div class="formInputs">
+                        <div class="individualInputs">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" 
+                                    minlength="6" maxlength="50" required>
+                        </div>
+                        <div class="individualInputs">
+                            <label for="passwordConfirm">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirmPassword" name="comfirmPassword" 
+                                    minlength="6" maxlength="50" required>
+                        </div>
+                    </div>
+                </form>
             </div>
 
-            <div class="formInputs">
-                <div class="individualInputs">
-                    <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="password" 
-                            minlength="6" maxlength="50" required>
-                </div>
-                <div class="individualInputs">
-                    <label for="passwordConfirm">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirmPassword" name="comfirmPassword" 
-                            minlength="6" maxlength="50" required>
-                </div>
+            <div>
+                <button form="userForm" class="submit">Create Account</button>
+                <p>Already have an account? <a href="https://www.youtube.com/watch?v=9Aio5MadFUY" target="_blank">Log In!</a></p>
             </div>
-        </form>
-    </div>
-
-    <div>
-        <button form="userForm" class="submit">Create Account</button>
-        <p>Already have an account? <a href="https://www.youtube.com/watch?v=9Aio5MadFUY" target="_blank">Log In!</a></p>
-    </div>
-
-    
-</body>
+        </div>
+        
+    </body>
 </html>
