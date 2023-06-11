@@ -12,9 +12,18 @@ body {
     display: flex;
 }
 
-.logo {
+.logoContainer {
     width: 40vw;
+    background-image: url(/images/olga-vilkha-background.jpg);
+    background-position: 50% 35%;
 }
+
+.icon {
+    width: 100px;
+    height: 35px;
+}
+
+
 
 .data {
     width: 60vw;
