@@ -1,3 +1,21 @@
 h1 {
     color:#5492aa;
 }
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+}
+
+.logo {
+    width: 40vw;
+}
+
+.data {
+    width: 60vw;
+}
