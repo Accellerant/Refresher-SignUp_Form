@@ -1,5 +1,5 @@
 h1 {
-    color:#5492aa;
+    color:#000000;
 }
 
 html {
@@ -20,10 +20,26 @@ body {
 
 .icon {
     width: 100px;
-    height: 35px;
+    height: 50px;
+    transform: rotate(-25deg);
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    align-items: center;
+    background-color: #ffffff8c;
+    padding: 2.5em;
+    position: relative;
+    top: 18vh;
+    
+}
 
+.logo h1 {
+    margin: 0;
+    font-size: 4.5em;
+}
 
 .data {
     width: 60vw;
